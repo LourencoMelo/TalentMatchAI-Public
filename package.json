@@ -1,0 +1,16 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend\" \"ollama serve \"",
+        "dev": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix frontend\" \"ollama serve \"",
+        "start:server": "npm run dev --prefix backend",
+        "start:web": "npm start --prefix frontend",
+        "start:ai": "ollama serve"
+    },
+    "devDependencies": {
+        "concurrently": "^7.6.0",
+        "prettier": "^3.3.1"
+    }
+}
