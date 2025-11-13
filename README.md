@@ -69,7 +69,7 @@ You can always follow this tutorial if you get lost: [Tutorial](https://youtu.be
 2.  Install dependencies for frontend
 
     ```bash
-    cd TalentMatchAI/backend
+    cd TalentMatchAI-Public/backend
     pnpm i
     ```
 
@@ -87,7 +87,7 @@ You can always follow this tutorial if you get lost: [Tutorial](https://youtu.be
     DATABASE_URL = ...
     ```
 
-5.  Run the entire project with one command
+5.  Run the entire project with one command on the main folder(TalentMatchAI)
 
     ```bash
     pnpm start
