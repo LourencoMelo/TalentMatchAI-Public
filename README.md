@@ -58,6 +58,8 @@ TalentMatchAI is an application that uses AI to process resumes in PDF format an
 
 You can always follow this tutorial if you get lost: [Tutorial](https://youtu.be/j7JlI6IAdQ0?si=pvC0C2m0HK-Z-Gdk)
 
+Must Read: When you run the front end for the first time, click on the Generate Candidates button, it will open a pop-up tab to give Gmail permissions for that app. Allow that, it will create the token.json in the emailFiles folder. After that it will be automatic. It it fails after a few days, just delete the token.json and do everything again. This could be automated in the future.
+
 ## Installation
 
 1.  Clone this repository:
