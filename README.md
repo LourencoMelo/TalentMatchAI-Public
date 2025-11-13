@@ -68,7 +68,7 @@ Must Read: When you run the front end for the first time, click on the Generate 
     git clone https://github.com/your-user/TalentMatchAI-Public.git
     ```
 
-2.  Install dependencies for frontend
+2.  Install dependencies for backend
 
     ```bash
     cd TalentMatchAI-Public/backend
