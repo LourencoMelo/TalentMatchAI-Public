@@ -10,7 +10,7 @@ Built entirely with TypeScript for consistency, type safety, and maintainability
 
 ## Description
 
-TalentMatchAI is an application that uses AI to process resumes in PDF format and match candidates with job vacancies. You can edit and delete candidates, and additionally compare their results using a radar chart.
+TalentMatchAI is an application that uses AI to process resumes in PDF format and match candidates with job vacancies. You can edit and delete candidates, and additionally compare their results using a radar chart. The focus of this project wasn't to invest a lot of time on the frontend. Just a clean and simple design. This could be improved in the future.
 
 ## Features
 
@@ -28,7 +28,7 @@ TalentMatchAI is an application that uses AI to process resumes in PDF format an
 - User interface for interaction with the end user.
 - Displays the results of the candidates.
 - Edit candidates.
-- Compare 2 candidates by a radar chart.
+- Compare two candidates using a radar chart showing their scores across key skills.
 
 ### Local AI LLM
 
