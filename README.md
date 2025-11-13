@@ -63,7 +63,7 @@ You can always follow this tutorial if you get lost: [Tutorial](https://youtu.be
 1.  Clone this repository:
 
     ```bash
-    git clone https://github.com/your-user/TalentMatchAI.git
+    git clone https://github.com/your-user/TalentMatchAI-Public.git
     ```
 
 2.  Install dependencies for frontend
