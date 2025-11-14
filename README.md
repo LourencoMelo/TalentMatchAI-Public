@@ -66,30 +66,36 @@ Must Read: When you run the front end for the first time, click on the Generate 
 
     ```bash
     git clone https://github.com/your-user/TalentMatchAI-Public.git
-    ```
 
-2.  Install dependencies for backend
+2. Install dependencies for the project
 
     ```bash
-    cd TalentMatchAI-Public/backend
+    cd TalentMatchAI-Public
     pnpm i
     ```
 
-3.  Install dependencies for frontend
+3.  Install dependencies for backend
+
+    ```bash
+    cd backend
+    pnpm i
+    ```
+
+4.  Install dependencies for frontend
 
     ```bash
     cd ../frontend
     pnpm i
     ```
 
-4.  Create a .env file inside the main project folder with the Connection String for the MongoDB and the Backend Port
+5.  Create a .env file inside the main project folder with the Connection String for the MongoDB and the Backend Port
 
     ```bash
     BACKEND_PORT = ...
     DATABASE_URL = ...
     ```
 
-5.  Run the entire project with one command on the main folder(TalentMatchAI)
+6.  Run the entire project with one command on the main folder(TalentMatchAI)
 
     ```bash
     pnpm start
